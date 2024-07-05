@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria do Paulista</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/pizzarialogoatividade.png.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="img/pizzarialogoatividade.png.png" alt="Logotipo da Pizzaria" class="logo">
+        <h3>Venha experimentar a melhor pizza!!</h3>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/sobre.html">Sobre</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="/contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <h1>Bem-vindo à Pizzaria do Paulista!</h1>
+        <p>A melhor pizza da cidade!</p>
+    </section>
+
+    <section class="content">
+        <p class="highlight">Desfrute de uma pizza autêntica feita com os ingredientes mais frescos.</p>
+
+        <style>
+            .gallery {
+                display: flex; 
+                justify-content: space-around; 
+                align-items: center; 
+            }
+        
+            .gallery div {
+                flex: 1;
+                text-align: center; 
+                padding: 10px; 
+                box-sizing: border-box; 
+            }
+        
+            .gallery img {
+                max-width: 100%; 
+                height: auto; 
+                display: block;
+                margin: 0 auto; 
+                width: 70%; 
+            }
+        </style>
+        
+        <div class="gallery">
+            <div>
+                <img src="img/pizzapeperoni.jfif" alt="Pizza Margherita" width="540px" height="260px">
+                <p>Pizza Margherita</p>
+            </div>
+            <div>
+                <img src="img/pizzamarguerita.jfif" alt="Pizza Pepperoni" width="540px" height="260px">
+                <p>Pizza Pepperoni</p>
+            </div>
+    </section>
+
+    <section class="button"> 
+        <button onclick="window.location.href='menu.html'">Veja nosso Menu</button>
+    </section>
+
+    <section class="media">
+        <h2>Assista ao nosso vídeo</h2>
+        <video width="640" height="360" controls>
+            <source src="midia/videopizza.mp4.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="location">
+        <h2>Nosso Local</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124594.25228323374!2d-38.454092056640626!3d-12.61054119999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7165d907044db61%3A0xa9f239472e408fef!2sRestaurante%20e%20Pizzaria%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1719869030066!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+    </section>
+
+    <section class="signup">
+        <h2>Cadastre-se</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <p>Criado por "Stacy Amanda"</p>
+    </footer>
+</body>
+</html>

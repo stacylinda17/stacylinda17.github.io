@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Pizzaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffd700; /* Amarelo */
+            padding: 10px 20px;
+            color: #8b0000; /* Vermelho escuro */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            height: 50px;
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        header nav ul li {
+            display: inline;
+        }
+        header nav ul li a {
+            color: #8b0000;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        header nav ul li a:hover {
+            background-color: #f0e68c; /* Amarelo claro */
+        }
+        .container {
+            background-color: #fa0000;
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .story {
+            flex: 1;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .story h1 {
+            background-color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            background-attachment: fixed;
+            color: #8b0000; 
+        }
+        .story h2 {
+            text-align: center;
+            color: #ffd900; 
+        }
+        
+        .story p {
+            color: #ffffff;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .photo {
+            flex: 1;
+            text-align: center;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/pizzarialogoatividade.png.png" alt="Logotipo da Pizzaria" class="logo">
+        <h3>Venha experimentar a melhor pizza!!</h3>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="/contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="story">
+            <h1>Nossa História</h1>
+            <p>A Pizzaria do Paulista foi fundada em 1990 por João Paulo, um apaixonado por pizzas desde a infância. Com o passar dos anos, nossa pizzaria se tornou um ponto de encontro para amigos e famílias que buscam uma experiência gastronômica única.</p>
+            <p>Nosso compromisso é oferecer pizzas frescas e saborosas, preparadas com ingredientes de qualidade e muito amor. A cada mordida, você sentirá o cuidado e a dedicação que colocamos em cada pizza.</p>
+            <h2>Venha nos visitar e saborear a melhor pizza da região!</h2>
+        </div>
+        <div class="photo">
+            <img src="img/donodapizzaria.jfif" alt="Fachada da Pizzaria" width="340px" height="160px">
+            
+        </div>
+    </div>
+
+</body>
+</html>
